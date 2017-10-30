@@ -65,7 +65,7 @@ hr { border-color: #dedede }
 .divider { margin-top: 32px }
 .navbar-blue {
     border-width: 0;
-    background-color: #3B5999;
+    background-color: #B21211;
     color: #ffffff;
     font-family: arial, sans-serif;
     top: 0;
@@ -121,7 +121,7 @@ hr { border-color: #dedede }
     display: block;
     padding: 3px;
     background-color: #fff;
-    color: #3B5999;
+    color: #B21211;
     height: 28px;
     width: 28px;
     margin: 9px;
@@ -133,6 +133,9 @@ hr { border-color: #dedede }
     text-decoration: none;
     text-shadow: 0 0 1px;
     border-radius: 2px;
+}
+.logo:hover {
+    color: #FF3E3e;
 }
 h1,
 h2,
@@ -261,7 +264,7 @@ small.text-muted { font-family: courier, courier-new, monospace }
     font-size: 300%;
     color: #fff;
     text-align: left;
-    background-color: #2b5386;
+    background-color: #B21111;
     clear: both;
 }
 .message {
@@ -435,3 +438,29 @@ small.text-muted { font-family: courier, courier-new, monospace }
 }
 .tt-suggestion p { margin: 0 }
 .signup { margin-left: 20px }
+
+.btn-primary{
+  color: #fff;
+  background-color: #B21111;
+  border-color: #FF3E3E;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #FF3E3E;
+  border-color: #FF3E3E;
+}
+
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+  color: #fff;
+  background-color: #FF3E3E;
+  border-color: #FF3E3E;
+}
