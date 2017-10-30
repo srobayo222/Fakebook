@@ -74,7 +74,7 @@ hr { border-color: #dedede }
 }
 .navbar-blue li > a,
 .navbar-toggle { color: #efefef }
-.navbar-blue .dropdown-menu li a { color: #B21111 }
+.navbar-blue .dropdown-menu li a { color:   #B21111 }
 .navbar-blue .dropdown-menu li > a { padding-left: 30px }
 .navbar-blue li > a:hover,
 .navbar-blue li > a:focus,
