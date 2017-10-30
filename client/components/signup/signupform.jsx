@@ -55,23 +55,23 @@ Signupform = React.createClass({
                     <div className="col-sm-9">
                         <div className="row">
                             <div className="col-sm-6 form-group">
-                            <label for="firstName" hidden>first_name</label>
-                                <input ref="first_name" type="text" placeholder="First name" className="form-control"/>
+                            <label for="first_name" hidden>first_name</label>
+                                <input name= "first_name" ref="first_name" type="text" placeholder="First name" className="form-control"/>
                             </div>
                             <div className="col-sm-6 form-group">
-                            <label for="lastName" hidden></label>
-                                <input ref="last_name" type="text" placeholder="Last name"className="form-control"/>
+                            <label for="last_name" hidden></label>
+                                <input name="last_name" ref="last_name" type="text" placeholder="Last name"className="form-control"/>
                             </div>
                         </div>
 
 
                         <div className="form-group">
                         <label for="email" hidden>email</label>
-                            <input type="text" placeholder="Email or mobile number" ref="email" className="form-control"/>
+                            <input name="email" type="text" placeholder="Email or mobile number" ref="email" className="form-control"/>
                         </div>
                         <div className="form-group">
                         <label for="password" hidden>pass</label>
-                            <input type="password" placeholder="New password" ref="password" lassName="form-control"/>
+                            <input name="password" type="password" placeholder="New password" ref="password" lassName="form-control"/>
                         </div>
                         <button type="submit" className="btn btn-md btn-success">Sign Up</button>
                         <span className={this.state.messageClass}>{this.state.message}</span>
