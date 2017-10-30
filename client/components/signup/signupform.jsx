@@ -66,12 +66,12 @@ Signupform = React.createClass({
 
 
                         <div className="form-group">
-                        <label for="email" hidden>email</label>
-                            <input name="email" id="email" type="text" placeholder="Email or mobile number" ref="email" className="form-control"/>
+                        <label for="emailReg" hidden>email</label>
+                            <input name="emailReg" id="emailReg" type="text" placeholder="Email or mobile number" ref="email" className="form-control"/>
                         </div>
                         <div className="form-group">
-                        <label for="password" hidden>password</label>
-                            <input name="password" id="password" type="password" placeholder="New password" ref="password" lassName="form-control"/>
+                        <label for="passwordReg" hidden>password</label>
+                            <input name="passwordReg" id="passwordReg" type="password" placeholder="New password" ref="password" lassName="form-control"/>
                         </div>
                         <button type="submit" className="btn btn-md btn-success">Sign Up</button>
                         <span className={this.state.messageClass}>{this.state.message}</span>
